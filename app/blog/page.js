@@ -1,44 +1,38 @@
-import fs from 'fs';
-import path from 'path';
-import Link from 'next/link';
+import fs from "fs";
+import path from "path";
+import Pagination from "@/components/pagination";
 
 export default function BlogPage() {
-  // Function to fetch blog data
+  // Fetch data server-side
   const fetchBlogs = () => {
-    const blogsDirectory = path.join(process.cwd(), 'data/Blogs');
+    const blogsDirectory = path.join(process.cwd(), "data/Blogs");
     const filenames = fs.readdirSync(blogsDirectory);
 
-    // Read each file and parse its content
-    const blogs = filenames.map((filename) => {
-      const filePath = path.join(blogsDirectory, filename);
-      const fileContents = fs.readFileSync(filePath, 'utf-8');
-      const blog = JSON.parse(fileContents);
+    // Read and parse blog data
+    const blogs = filenames
+      .filter((filename) => filename.endsWith(".json"))
+      .map((filename) => {
+        const filePath = path.join(blogsDirectory, filename);
+        const fileContents = fs.readFileSync(filePath, "utf-8");
 
-      // Generate slug if not included in the JSON
-      if (!blog.slug) {
-        blog.slug = filename.replace('.json', '');
-      }
-
-      return blog;
-    });
+        try {
+          const blog = JSON.parse(fileContents);
+          if (!blog.slug) {
+            blog.slug = filename.replace(".json", "");
+          }
+          return blog;
+        } catch (error) {
+          console.error(`Error parsing JSON for ${filename}:`, error);
+          return null;
+        }
+      })
+      .filter(Boolean); // Remove null values
 
     return blogs;
   };
 
   const blogs = fetchBlogs();
 
-  return (
-    <div>
-      <h1>Blog Posts</h1>
-      <ul>
-        {blogs.map((blog) => (
-          <li key={blog.slug}>
-            <Link href={`/blog/${blog.slug}`}>
-              <h2>{blog.title}</h2>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+  // Pass data to the Pagination component
+  return <Pagination blogs={blogs} />;
 }
