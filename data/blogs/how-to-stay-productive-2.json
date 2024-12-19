@@ -1,0 +1,19 @@
+{
+  "title": "How to Stay Productive 2",
+  "slug": "how-to-stay-productive-2",
+  "description": "Learn the best tips to boost your productivity and stay focused throughout the day.",
+  "content": [
+    {
+      "heading": "Start Your Day Right",
+      "image": "image-1.jpg",
+      "subText": "The morning sets the tone for the day.",
+      "text": "Begin with a good breakfast and a clear to-do list. Starting strong helps you stay focused."
+    },
+    {
+      "heading": "Avoid Distractions",
+      "image": "image-2.jpg",
+      "subText": "Stay on track with clear priorities.",
+      "text": "Turn off notifications and dedicate time blocks to important tasks."
+    }
+  ]
+}

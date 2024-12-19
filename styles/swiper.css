@@ -1,0 +1,53 @@
+/* Custom Swiper Styles */
+
+
+.swiper{
+  max-width:100%;
+  width:100%;
+}
+/* Pagination bullets */
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #ccc !important; /* Inactive bullet color */
+    opacity: 1;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: var(--color-primary) !important; /* Active bullet color (Orange) */
+  }
+  
+  /* Custom Navigation Buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .swiper-button-next:after{
+    display: none;
+  }
+
+  .swiper-button-prev:after{
+    display: none;
+  }
+  
+/* Next Button */
+.swiper-button-next {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2261%22%20height%3D%2260%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M30.5%2059C46.776%2059%2060%2046.033%2060%2030S46.776%201%2030.5%201%201%2013.967%201%2030s13.224%2029%2029.5%2029Z%22%20fill%3D%22%2392D641%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22/%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M26.083%2040.256a1.715%201.715%200%200%201%200-2.387l8.184-8.369-8.184-8.37a1.715%201.715%200%200%201%200-2.386c.645-.659%201.69-.659%202.334%200l9.35%209.563c.31.316.483.745.483%201.193%200%20.448-.174.877-.483%201.193l-9.35%209.563c-.645.659-1.69.659-2.334%200Z%22%20fill%3D%22%232B2B2B%22/%3E%3C/svg%3E');
+  right: 10px; /* Position the next button on the right */
+}
+
+/* Previous Button */
+.swiper-button-prev {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2261%22%20height%3D%2260%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M30.5%2059C46.776%2059%2060%2046.033%2060%2030S46.776%201%2030.5%201%201%2013.967%201%2030s13.224%2029%2029.5%2029Z%22%20fill%3D%22%2392D641%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22/%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M26.083%2040.256a1.715%201.715%200%200%201%200-2.387l8.184-8.369-8.184-8.37a1.715%201.715%200%200%201%200-2.386c.645-.659%201.69-.659%202.334%200l9.35%209.563c.31.316.483.745.483%201.193%200%20.448-.174.877-.483%201.193l-9.35%209.563c-.645.659-1.69.659-2.334%200Z%22%20fill%3D%22%232B2B2B%22/%3E%3C/svg%3E');
+  left: 10px; /* Position the previous button on the left */
+  transform: translateY(-50%) rotate(180deg); /* Flip the previous button */
+}

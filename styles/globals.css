@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import './typography.css';
+@import './buttons.css';
+@import './swiper.css';
+
+
+:root {
+    --color-black: #2B2B2B;
+    --color-white: #FFFFFF;
+    --color-grey: #D9D9D9;
+    --color-primary: #92D641;
+    --color-secondary: #04A1E1;
+    --color-tertiary: #2D3178;
+    --font-montserrat: 'Montserrat', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-montserrat);
+  }
+
+
+.container{
+    max-width:1280px;
+    margin:auto;
+    padding:0px 16px;
+}
+
+@keyframes flip {
+  0%, 25% {
+    transform: rotateY(0deg);
+  }
+  35%, 60% {
+    transform: rotateY(180deg);
+  }
+  70%, 100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.flip{
+  animation: flip-animation 4s ease-in-out infinite;
+}
