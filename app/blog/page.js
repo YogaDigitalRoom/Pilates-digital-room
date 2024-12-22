@@ -5,7 +5,7 @@ import Pagination from "@/components/pagination";
 export default function BlogPage() {
   // Fetch data server-side
   const fetchBlogs = () => {
-    const blogsDirectory = path.join(process.cwd(), "data/Blogs");
+    const blogsDirectory = path.join(process.cwd(), "data/blogs");
     const filenames = fs.readdirSync(blogsDirectory);
 
     // Read and parse blog data
