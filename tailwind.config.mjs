@@ -13,11 +13,11 @@ export default {
 				'tablet': '900px',
 			},
 			colors : {
-        "black" :"#2B2B2B",
+        "black" :"#010203",
         "white": "#FFFFFF",	
         "grey" : "#D9D9D9",
-        "primary" : "#92D641",
-        "secondary" : "#04A1E1",
+        "primary" : "#175578",
+        "secondary" : "#8c8840",
         "tertiary" : "#2D3178"
       },
       borderRadius : {

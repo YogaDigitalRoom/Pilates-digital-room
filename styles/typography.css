@@ -20,7 +20,7 @@
     --h5-min-line: 24px;
 }
 
-h1 {
+h1, .h1 {
     font-size: clamp(var(--h1-min-font), 8vw, var(--h1-max-font)) !important;
     line-height: clamp(var(--h1-min-line), 8vw, var(--h1-max-line)) !important;
     font-weight: bold !important;
@@ -28,7 +28,7 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
-h2 {
+h2, .h2 {
     font-size: clamp(var(--h2-min-font), 8vw, var(--h2-max-font)) !important;
     line-height: clamp(var(--h2-min-line), 8vw, var(--h2-max-line)) !important;
     font-weight: bold !important;
@@ -36,7 +36,7 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
-h3 {
+h3, .h3 {
     font-size: clamp(var(--h3-min-font), 8vw, var(--h3-max-font)) !important;
     line-height: clamp(var(--h3-min-line), 8vw, var(--h3-max-line)) !important;
     font-weight: bold !important;
@@ -44,7 +44,7 @@ h3 {
     -webkit-font-smoothing: antialiased;
 }
 
-h5 {
+h5, .h5 {
     font-size: clamp(var(--h5-min-font), 8vw, var(--h5-max-font)) !important;
     line-height: clamp(var(--h5-min-line), 8vw, var(--h5-max-line)) !important;
     font-weight: bold !important;

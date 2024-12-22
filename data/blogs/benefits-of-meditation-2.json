@@ -1,19 +1,21 @@
 {
   "title": "The Benefits of Meditation 2",
   "slug": "benefits-of-meditation-2",
+"date": "01/01/2024",
+"card":"image1.jpg",
   "description": "Learn the best tips to boost your productivity and stay focused throughout the day.",
   "content": [
     {
       "heading": "",
       "image": "image-1.jpg",
-      "subText": "Find peace in a hectic world.",
-      "text": "Meditation reduces stress and helps calm your mind, improving overall mental health."
+      "subText": "",
+      "text": ""
     },
     {
-      "heading": "Improved Focus",
+      "heading": "",
       "image": "image-2.jpg",
-      "subText": "Stay sharp throughout the day.",
-      "text": "Regular meditation enhances your ability to focus and stay present."
+      "subText": "",
+      "text": ""
     }
   ]
 }

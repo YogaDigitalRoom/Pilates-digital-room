@@ -9,17 +9,19 @@
 
 
 :root {
-    --color-black: #2B2B2B;
+    --color-black: #010203;
     --color-white: #FFFFFF;
     --color-grey: #D9D9D9;
-    --color-primary: #92D641;
-    --color-secondary: #04A1E1;
+    --color-primary: #17557A;
+    --color-secondary: #8C8840;
     --color-tertiary: #2D3178;
     --font-montserrat: 'Montserrat', sans-serif;
   }
 
   body {
     font-family: var(--font-montserrat);
+    background: var(--color-black);
+    color: white
   }
 
 
@@ -43,4 +45,61 @@
 
 .flip{
   animation: flip-animation 4s ease-in-out infinite;
+}
+
+/* Set the dropdown background color */
+.react-dropdown-select,
+.react-dropdown-select-dropdown {
+  background-color: #010203 !important;
+  color: white !important;
+}
+/* Remove gap between input and dropdown */
+.react-dropdown-select-dropdown {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  top: 100% !important; /* Ensure dropdown aligns directly with input */
+}
+
+/* Adjust the dropdown items */
+.react-dropdown-select-item {
+  color: white !important;
+  font-weight: normal !important;
+}
+
+/* Highlight the selected item in bold */
+.react-dropdown-select-item.react-dropdown-select-item-selected {
+  font-weight: bold !important;
+}
+
+/* Override the dropdown input background */
+.react-dropdown-select-input {
+  background-color: #010203 !important;
+  color: white !important;
+  border: none !important;
+}
+
+/* Style the dropdown arrow */
+.react-dropdown-select-dropdown-handle {
+  color: white !important;
+}
+
+
+/* Adjust hover state for the dropdown items */
+.react-dropdown-select-item {
+  background-color: #17557A !important;
+  color: white !important;
+}
+/* Adjust hover state for the dropdown items */
+.react-dropdown-select-item:hover {
+  background-color: #8C8840 !important;
+  color: white !important;
+}
+
+/* Focus border styling */
+.react-dropdown-select:focus,
+.react-dropdown-select:hover,
+.react-dropdown-select-dropdown:focus,
+.react-dropdown-select:focus-within {
+  outline: none !important;
+  border: 1px solid #17557A !important;
 }
