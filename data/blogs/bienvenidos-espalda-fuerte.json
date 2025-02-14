@@ -1,0 +1,55 @@
+{
+    "title": "Bienvenidos a Pilates Digital Room: La Fórmula para una Espalda Fuerte y sin Dolor",
+    "slug": "bienvenidos-espalda-fuerte",
+    "date": "08/02/2025",
+    "card": "espalda-fuerte.jpg",
+    "description": "Aprende a cuidar tu movilidad y fortalecer tu espalda con ejercicios, técnicas y recursos prácticos. Di adiós al dolor y mejora tu postura.",
+    "content": [
+    {
+    "heading": "Si tu espalda hablara, ¿qué te diría?",
+    "image": ["espalda-dolor.jpg"],
+    "subText": "Tu espalda tiene algo que decirte, escúchala antes de que sea tarde.",
+    "text": "Suena exagerado, pero dime la verdad: ¿Cuántas veces te has levantado con la sensación de que tu espalda te pasa factura? No eres el único, deportistas, yoguis, crossfiteros, runners y personas que pasan horas sentadas tienen algo en común: la espalda sufre.",
+    "note": "📌 Por eso creamos [Nombre de tu Web], un espacio para que dejes de convivir con el dolor y mejores tu movilidad."
+    },
+    {
+    "heading": "Lo que vas a encontrar aquí",
+    "image": ["movilidad-ejercicios.jpg"],
+    "subText": "Ejercicios y técnicas sin rodeos, solo lo que realmente funciona.",
+    "text": "📌 Soluciones prácticas para fortalecer tu espalda y evitar lesiones.",
+    "list": [
+    "✅ Ejercicios de movilidad y activación del core.",
+    "✅ Técnicas de respiración diafragmática para reducir tensión.",
+    "✅ Posturas de yoga y pilates para aliviar el dolor de espalda.",
+    "✅ Guías y recursos gratuitos para que no te falte información útil."
+    ],
+    "note": "📌 Sin tecnicismos innecesarios ni promesas milagrosas, solo lo que realmente funciona."
+    },
+    {
+    "heading": "Si quieres resultados, empieza aquí",
+    "image": ["primeros-pasos.jpg"],
+    "subText": "No pierdas tiempo, aquí tienes lo esencial para mejorar tu espalda.",
+    "text": "👉 ¿Por qué la activación del core es clave para evitar el dolor de espalda? (Spoiler: sin un core fuerte, tu espalda sufre el doble).",
+    "list": [
+    "👉 Cómo respirar correctamente para evitar tensión y mejorar tu rendimiento.",
+    "👉 Pilates para deportistas: lo que nadie te cuenta sobre movilidad y lesiones.",
+    "👉 Posturas de yoga que alivian la espalda y que cualquier persona puede hacer."
+    ],
+    "note": "📌 Explora estos temas y mejora tu calidad de vida."
+    },
+    {
+    "heading": "¿Nos seguimos?",
+    "image": ["seguimiento-redes.jpg"],
+    "subText": "Este es solo el principio, sigue aprendiendo y mejorando tu movilidad.",
+    "text": "Si quieres contenido real, útil y sin rodeos sobre movilidad y salud de la espalda:",
+    "list": [
+    "🔹 Sígueme en Instagram para tips y ejercicios diarios → @[tu cuenta]",
+    "🔹 Únete a nuestra comunidad y recibe contenido exclusivo → [enlace a newsletter]",
+    "🔹 Descarga GRATIS la guía 'Activación del Core' → [enlace]"
+    ],
+    "note": "📌 Nos vemos en el siguiente post. Y recuerda: si tu espalda hablara... ¡haz que te diga 'gracias'!"
+    }
+    ]
+    }
+    
+    

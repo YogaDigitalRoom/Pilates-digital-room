@@ -127,7 +127,7 @@ p{
   }
   
   .text-block ul {
-    list-style-type: disc;
+    list-style-type: none;
   }
   
   .text-block ol {

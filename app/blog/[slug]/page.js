@@ -25,7 +25,7 @@ export default async function BlogPost({ params }) {
   } catch (error) {
     console.error(`Error loading blog post: ${slug}`, error);
     return (
-      <div className="container mx-auto px-4 py-8">
+      <div className="container">
         <p className="text-red-500 text-center">Blog post not found.</p>
       </div>
     );

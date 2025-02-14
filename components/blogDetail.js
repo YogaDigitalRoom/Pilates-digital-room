@@ -67,6 +67,16 @@ export default function BlogPostClient({ blog }) {
                 )}
 
                 {item.text && <p className="text-white">{item.text}</p>}
+                
+                {item.list && item.list.length > 0 && (
+                  <ul className="text-white">
+                    {item.list.map((listItem, idx) => (
+                      <li key={idx}>{listItem}</li>
+                    ))}
+                  </ul>
+                )}
+
+              {item.note && <p className="text-white">{item.note}</p>}
               </div>
             ))}
         </section>
