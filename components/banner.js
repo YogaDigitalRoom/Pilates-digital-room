@@ -20,7 +20,6 @@ const Banner = ({ title, imageSrc = '/yoga.jpg' }) => {
         />
       </div>
 
-      {/* Title */}
       <div className="container relative z-[2]">
         <h1 className="!text-[48px] !leading-[56px] md:!text-[120px] md:!leading-[132px] text-center flex flex-col items-center justify-center text-white">
           {title || 'Default Title'}
