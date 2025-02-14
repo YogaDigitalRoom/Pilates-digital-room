@@ -56,6 +56,9 @@ const Header = () => {
             <Link href="/blog" className="h5 !font-normal hover:text-primary">
               Blogs
             </Link>
+            <Link href="/about" className="h5 !font-normal hover:text-primary">
+              About
+            </Link>
           </nav>
         </div>
 
@@ -72,6 +75,9 @@ const Header = () => {
             </Link>
             <Link href="/blog" className="h5" onClick={closeMenu}>
               Blogs
+            </Link>
+            <Link href="/about" className="h5" onClick={closeMenu}>
+              About
             </Link>
           </div>
         </div>

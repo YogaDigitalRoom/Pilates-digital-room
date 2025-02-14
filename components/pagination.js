@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Select from "react-dropdown-select";
-
+import Banner from "./banner";
 export default function Pagination({ blogs }) {
   const itemsPerPage = 6; // Number of blogs per page (3 per row in a grid layout)
   const [currentPage, setCurrentPage] = useState(1);
@@ -68,8 +68,10 @@ export default function Pagination({ blogs }) {
   );
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-center mb-6">Blog Posts</h1>
+    <>
+    <Banner title="Blogs" imageSrc="/image1.jpg" />
+    <div className="container !mt-10 mx-auto px-4 py-8">
+      
 
       {/* Search Input */}
       <div className="mb-4 mx-auto max-w-[768px]">
@@ -142,6 +144,8 @@ export default function Pagination({ blogs }) {
           />
         </div>
       )}
-    </div>
+    </div>   
+    </>
+ 
   );
 }

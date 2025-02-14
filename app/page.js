@@ -1,7 +1,9 @@
+import HeroBanner from "@/components/hero-banner";
+
 export default function Home() {
   return (
-   <h1 className="text-primary">
-    HOMEPAGE
-   </h1>
+   <>
+   <HeroBanner/>
+   </>
   );
 }

@@ -1,0 +1,39 @@
+{
+  "title": "Pilates: El Dios del gym, del box y de tu espalda",
+  "slug": "pilates-dios-del-fitness",
+  "date": "11/01/2024",
+  "card": "pilatesdios.jpg",
+  "description": "Acepta el reto de Pilates y descubre cómo mejora tu fuerza, movilidad y calidad de vida. ¿Te atreves a probarlo sin que nadie se entere?",
+  "content": [
+    {
+      "heading": "¿Por qué Pilates es el dios del fitness?",
+      "image": ["pilatesdios.jpg","BUENA.jpeg"], 
+      "subText": "Un método revolucionario para todos.",
+      "text": "Pilates no es solo ejercicio, es el método funcional que transforma la fuerza, la movilidad y la salud postural. Creado hace más de un siglo, sigue siendo el secreto mejor guardado para quienes buscan resultados reales, ya seas un deportista que necesita mejorar su rendimiento o alguien que quiere moverse sin dolor. Pero aquí va el desafío: ¿estás dispuesto a comprobarlo por ti mismo?"
+    },
+    {
+      "heading": "El reto: ¿Te atreves a probar Pilates?",
+      "image": ["reto-pilates.jpg"],
+      "subText": "Pilates te pone en tu sitio, literalmente.",
+      "text": "Si alguna vez has pensado que Pilates no es para ti, te invito a probarlo. No tienes que decírselo a nadie, simplemente toma una clase, sigue los movimientos y siente cómo tu cuerpo responde. Este reto está diseñado para que experimentes por ti mismo:\n\n1. **Fuerza inesperada**: Activa músculos que ni sabías que tenías.\n2. **Movilidad funcional**: Descubre cómo moverte con mayor fluidez.\n3. **Postura impecable**: Siéntete más alto y ligero al terminar.\n\n_‘Pilates te pone en tu sitio, y si aún crees que no tiene nada que ofrecerte, prueba esta clase (sin que nadie se entere) y siente cómo tu cuerpo te lo agradece.’_"
+    },
+    {
+      "heading": "Beneficios de Pilates para todos",
+      "image": ["BUENA.jpeg"],
+      "subText": "Desde deportistas hasta principiantes.",
+      "text": "Pilates no discrimina: es tan efectivo para quienes entrenan CrossFit como para quienes buscan aliviar dolores de espalda. Algunos de los beneficios clave incluyen:\n\n- **Fuerza y estabilidad**: Un core fuerte protege tu cuerpo y mejora cualquier movimiento.\n- **Movilidad**: Aumenta el rango de movimiento y evita rigidez muscular.\n- **Alivio del dolor**: Corrige desequilibrios posturales y reduce tensiones.\n\n¿Te sientes identificado con alguno de estos objetivos? Pilates tiene algo para ofrecerte."
+    },
+    {
+      "heading": "Clase gratuita: Demuestra lo que Pilates puede hacer por ti",
+      "video": "pilates-clase.mp4",
+      "subText": "Acepta el reto y siente la diferencia.",
+      "text": "Te invito a mi clase gratuita de Pilates funcional. Es tu oportunidad para experimentar cómo este método mejora tu fuerza, tu movilidad y tu postura desde el primer movimiento. Haz clic en el video y acepta el reto. Nadie tiene que enterarse, pero tú lo notarás."
+    },
+    {
+      "heading": "Descarga tu ebook gratuito: ‘Lo que nadie te cuenta sobre el core y la postura’",
+      "image": ["ebook-core.jpg"],
+      "subText": "El complemento perfecto para tu transformación.",
+      "text": "¿Quieres profundizar aún más? Descarga mi ebook gratuito y aprende los secretos para fortalecer tu core y mejorar tu postura. Este recurso incluye ejercicios, consejos prácticos y toda la información que necesitas para llevar tu entrenamiento al siguiente nivel."
+    }
+  ]
+}
