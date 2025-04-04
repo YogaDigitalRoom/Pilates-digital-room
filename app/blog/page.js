@@ -9,7 +9,7 @@ export default function Home() {
       <HeroBanner />
 
       <div className="w-full bg-white text-center text-black font-medium mt-10 text-[25px] py-10">
-        fuerza, control, respiración, precisión, concentración
+        Fuerza, control, respiración, precisión, concentración
       </div>
 
       <Footer />
