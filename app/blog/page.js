@@ -17,6 +17,15 @@ export default async function BlogPage() {
     return JSON.parse(fileContents);
   });
 
+  // 🔁 Ordenar de más reciente a más antiguo
+  blogs.sort((a, b) => {
+    const [dayA, monthA, yearA] = a.date.split('/');
+    const [dayB, monthB, yearB] = b.date.split('/');
+    const dateA = new Date(`${yearA}-${monthA}-${dayA}`);
+    const dateB = new Date(`${yearB}-${monthB}-${dayB}`);
+    return dateB - dateA; // 🔁 más reciente primero
+  });
+
   return (
     <main className="p-10 max-w-7xl mx-auto">
       <h1 className="text-4xl font-bold mb-10">Últimos artículos</h1>
