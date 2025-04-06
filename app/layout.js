@@ -8,7 +8,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="bg-white text-black">{children}</body>
+      <body>{children}</body>
+    </html>
+  );
+}
+// ✅ Este archivo es solo para configuración del layout y metadata
+import '../styles/globals.css';
+
+export const metadata = {
+  title: 'Pilates Digital Room',
+  description: 'Tu espacio digital de pilates y yoga',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="es">
+      <body>{children}</body>
     </html>
   );
 }
